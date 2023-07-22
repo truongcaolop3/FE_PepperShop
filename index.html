@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEPPER</title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@0,500;1,400&family=Oswald:wght@500&family=Pacifico&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div id="main">
+        <header class="header">
+            <ul class="nav">
+                <div class="logo">PEPPER SHOP</div>
+                <form class="form_find">
+                    <div class="find_heading">
+                        <input type="text" id="find" name="lname" placeholder="Tìm kiếm món ăn, đồ uống..." >
+                        <div class="find_icond">
+                            <i class='bx bx-search search_icon'></i>
+                        </div>
+                    </div>
+                </form>
+                <div class="login_user">
+                    <i class='bx bxs-user user_heading'></i>
+                    <p>đăng nhập/đăng ký</p>
+                </div>
+                <div class="cart_user">
+                    <i class='bx bx-cart-alt cart_icon'></i>
+                    <p>Giỏ Hàng</p>
+                </div>
+            </ul>
+        </header>
+        <div id="content">
+           
+        </div>
+        <div id="footer">
+
+        </div>
+    </div> -->
+
+
+    <nav class="navbar navbar-expand-lg header">
+        <div class="container">
+            <a class="navbar-brand text-uppercase text-light fw-bold logo text-break " href="#">Peper Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
+                <form class="form_find navbar-nav m-auto mb-2 mb-lg-0">
+                    <div class="find_heading">
+                        <input class="form-control me-2" type="text" id="find" name="lname"
+                            placeholder="Tìm kiếm món ăn, đồ uống...">
+                        <div class="find_icond">
+                            <i class='bx bx-search search_icon'></i>
+                        </div>
+                    </div>
+                </form>
+                <div class="d-flex" role="search">
+                    <div class="login_user">
+                        <i class='bx bxs-user user_heading'></i>
+                        <p>Đăng nhập/Đăng ký</p>
+                    </div>
+                    <div class="cart_user">
+                        <i class='bx bx-cart-alt cart_icon'></i>
+                        <p>Giỏ Hàng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="content">
+        <div class="slide ">
+            <div class="background_slide">
+                <img class="img" src="assest/img/0153eedc5b553971d2966d9be1ac72a4.png" alt="">
+            </div>
+            <div class="slide_tagname">
+                <div id="carouselExampleIndicators" class="carousel slide example_1" data-bs-ride="true">
+                    <div class="carousel-indicators ">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner  ">
+                        <div class="carousel-item active ">
+                            <img src="./assest/img/slide_1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./assest/img/slide_2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./assest/img/slide_1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="second_slide">
+                        <div class="element_slide">
+                            <img src="./assest/img/tiki.png" alt="">
+                            <p>TikiNGON</p>
+                        </div>
+                        <div class="element_slide text-uppercase">
+                            <img src="./assest/img/qua.png" alt="">
+                            <p>Mua là có quà</p>
+                        </div>
+                        <div class="element_slide text-uppercase">
+                            <img src="./assest/img/deal.png" alt="">
+                            <p>coupon</p>
+                        </div>
+                        <div class="element_slide text-uppercase">
+                            <img src="./assest/img/ngocdung.png" alt="">
+                            <p>Ngoc dung food</p>
+                        </div>
+                        <div class="element_slide text-uppercase">
+                            <img src="./assest/img/haisantuoi.png" alt="">
+                            <p>Hải sản tươi sống</p>
+                        </div>
+                        <div class="element_slide text-uppercase">
+                            <img src="./assest/img/topmeal.png" alt="">
+                            <p>topmeal</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+         <div class="tagname_food">
+            <div class="tag">
+                những món ăn hot
+            </div>
+            <div class="element_food">
+                <div class="element_tagnamefood">
+                    <img src="assest/img/canhchua.jpg" alt="">
+                    <div>Canh Chua</div>
+                    <h4>300k</h4>
+
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Detail
+                    </button>
+                </div>
+                <div class="element_tagnamefood">
+                    <img src="assest/img/cakho.jpg" alt="">
+                    <div>Cá Kho</div>
+                    <h4>300k</h4>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Detail
+                    </button>
+                </div>
+                <div class="element_tagnamefood">
+                    <img src="assest/img/thitkho.jpg" alt="">
+                    <div>Thịt Kho</div>
+                    <h4>300k</h4>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Detail
+                    </button>
+                </div>
+                <div class="element_tagnamefood">
+                    <img src="assest/img/Lau-hai-san.jpg" alt="">
+                    <div>Lẩu hải sản</div>
+                    <h4>300k</h4>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Detail
+                    </button>
+                </div>
+                <div class="element_tagnamefood">
+                    <img src="assest/img/supcua.jpg" alt="">
+                    <div>Súp cua</div>
+                    <h4>300k</h4>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Detail
+                    </button>
+                </div>
+                <div class="element_tagnamefood">
+                    <img src="assest/img/canhkhoqua.jpg" alt="">
+                    <div>Canh Khổ Qua</div>
+                    <h4>300k</h4>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Detail
+                    </button>
+                </div>
+                <div class="element_tagnamefood">
+                    <img src="assest/img/cari.jpg" alt="">
+                    <div>Cà ri</div>
+                    <h4>300k</h4>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+         <div class="namefood " >
+            <div class="tag tag_2">
+                Những thực phẩm thiết yếu 
+            </div>
+            <div class="element_food_2">
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="element_food_2_1 "> 
+                    <img src="./assest/img/canhkhoqua.jpg" alt="">
+                    <p>Dầu ăn Simply</p>
+                    <h5>120k</h5>
+                    <div class="buy_and_cart">
+                        <button type="button" class="btn btn-success ">
+                            Buy
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <i class='bx bx-cart-alt cart_icon'></i>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="element_footer">
+            <div class="element_1">
+                <h4>Hỗ trợ khách hàng</h4>
+                <p>Phone: <a href="tell:0336848237">0336848237</a></p>
+                <p>Email: <a href="truongcaolop3@gmail.com">truongcaolop3@gmail.com</a></p>
+                <p>Gửi yêu cầu hỗ trợ</p>
+                <p>Hướng dẫn đặt hàng</p>
+                <p>Phương thức vận chuyển</p>
+                <p>Chính sách đổi trả</p>
+                <p>Hướng dẫn trả góp</p>
+                <p>Chính sách hàng nhập khẩu</p>
+                <p>Hỗ trợ khách hàng: hotro@tiki.vn</p>
+                <p>Báo lỗi bảo mật: security@tiki.vn</p>
+            </div>
+
+            <div class="element_1">
+                <h4>Về Pepper</h4>
+                <p>Giới thiệu Pepper</p>
+                <p>Tiki Blog</p>
+                <p>Tuyển dụng</p>
+                <p>Chính sách bảo mật thông tin cá nhân</p>
+                <p>Chính sách giải quyết khiếu nại</p>
+                <p>Điều khoản sử dụng</p>
+            </div>
+            <div class="element_1">
+                <h4>Hợp tác và liên kết</h4>
+                <p>Quy chế hoạt động Sàn GDTMĐT</p>
+                <p>Bán hàng cùng Pepper</p>
+            </div>
+            <div class="element_1">
+                <h4>Phương thức thanh toán</h4>
+                <img src="./assest/img/payment.png" alt="">
+                <h4>Dịch vụ giao hàng</h4>
+                <img src="./assest/img/tikinow.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5 text-danger" id="staticBackdropLabel ">Chi tiết món ăn</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="modal_detail">
+                    <img src="assest/img/canhchua.jpg" alt="">
+                </div>
+                <div class="element_detail">
+                    <h3>Canh Chua</h3>
+                    <div>Cá</div>
+                    <div>Đậu bắp</div>
+                    <div>Giá đỗ</div>
+                    <div>Thơm</div>
+                    <div>Cà chua</div>
+                    <div>Măng chua</div>
+                    <div class="price" >
+                        <p>Giá: </p>
+                        <div>120k</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-success">Mua</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
